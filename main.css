@@ -1,0 +1,64 @@
+body{
+    font-family: roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #2c2a29;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:Hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family:pacifico, cursive;
+}
+
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+}
+
+#sobre-a-sorveteria, #cardapio{
+    background-color:   #2c2a2952;
+}
+
+.text-colored{
+    color: #ff0000d3;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color:#2c2a29;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #2c2a29;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media(max-width:767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
